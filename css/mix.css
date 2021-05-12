@@ -1,0 +1,141 @@
+
+/* Menu*/
+ul li:first-of-type {
+    flex: -0.5rem;
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+	padding-top:35px;
+}
+a {
+    text-decoration: none;
+    color: black;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	color:white;
+}
+ul li {
+    list-style: none;
+    font-size: 120%
+}
+li {
+	margin-left:30px;
+}
+.backImage{
+	      background: linear-gradient(
+        60deg,
+        rgb(27,27,163),
+        rgb(9,183,227) 100%
+      );
+}
+.backText{
+	font-family: 'Red Hat Display', sans-serif;
+	text-align:center;
+	color:white;
+	font-weight:700;
+}
+h5{
+	 color: #c4f1ff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: 1px;
+}
+h3{
+	color: #FFF;
+    font-size: 72px;
+    line-height: 80px;
+}
+h6{
+	font-size: 20px;
+	text-align:center;
+}
+h2{
+	font-size: 20px;
+}
+h4{
+	color:rgb(168,185,211);
+	font-family: 'Red Hat Display', sans-serif;
+	font-weight:700;
+}
+h1{
+	font-family: 'Red Hat Display', sans-serif;
+	font-weight:700;	
+}
+.itemIcon{
+	margin-top: 100px;
+	float: left;
+	text-align:center;
+	padding: 0px 20px;
+}
+.botton{
+	opacity:0;
+}
+.column:hover .botton {
+	 display: block;
+	 opacity: 1;
+}
+.eleven{
+      -webkit-transition: all .1s ease-in-out;  
+    }
+
+  .eleven:hover {
+     filter: gray; 
+      -webkit-filter: grayscale(1);
+      -webkit-transform: scale(1);
+	  cursor:pointer;
+    }
+	.sectionsix{
+		border: 1px solid white;
+			      background: linear-gradient(
+        60deg,
+        rgb(27,27,163),
+        rgb(9,183,227) 100%
+      );
+	  text-align:center;
+	  color:white;
+	  line-height: 35px;
+	  	font-family: 'Red Hat Display', sans-serif;
+	font-weight:700;
+	border-radius: 15px 15px 15px 15px;
+box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+}
+	}
+	.sec{
+		border:20px solid rgb(240,246,255);
+	}
+	.sectionsix:hover{
+		background:white;
+		color:black;
+	}
+	.sub-heading{
+		margin: 50px auto 0px auto;
+		width:600px;
+		text-align:center;
+		font-family: 'Red Hat Display', sans-serif;
+		font-weight:700;
+		line-height:30px;
+	}
+	.section-eight{
+		background-color:white;
+		box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+		border-radius: 20px;
+	}
+	.price-list:hover{
+		margin-top: -15px;
+		transition-duration: 0.5s;
+	}
+.keyword{
+	font-size: 20px;
+	color:#00C3FF;
+}
+
+	
+
+
+
+
+
+
